@@ -114,6 +114,12 @@ legend {
   overflow: hidden;
 }
 
+html,
+body {
+  overflow-x: hidden;
+  height: 100%;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
