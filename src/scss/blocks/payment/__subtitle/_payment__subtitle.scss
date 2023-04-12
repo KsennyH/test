@@ -1,0 +1,11 @@
+.payment__subtitle {
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #BBBBBB;
+    margin-bottom: 70px;
+    p + p {
+        margin-top: 10px;
+    }
+}

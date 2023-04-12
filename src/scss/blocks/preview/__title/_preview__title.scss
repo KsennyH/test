@@ -1,0 +1,11 @@
+.preview__title {
+    font-family: 'Lato';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    text-transform: uppercase;
+    max-width: 780px;
+    span {
+        color: $accent;
+    } 
+}

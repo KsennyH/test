@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en" class="html">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Test</title>
+</head>
+<body class="page">
+    <header class="page__header header">
+        <div class="header__container container">
+            <a href="/" class="logo">LoremIpsum.<span>Net</span></a>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#" class="nav__link nav__link_active">Бизнес</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">О нас</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">Цены</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">Оформить заказ</a>
+                    </li>
+                </ul>
+            </nav>
+            <button type="button" class="mobile-button">
+                <span class="mobile-button__icon"></span>
+            </button>
+            <nav class="mobile-nav">
+                <ul class="mobile-nav__list">
+                    <li class="mobile-nav__item">
+                        <a href="#" class="mobile-nav__link mobile-nav__link_active">Бизнес</a>
+                    </li>
+                    <li class="mobile-nav__item">
+                        <a href="#" class="mobile-nav__link">О нас</a>
+                    </li>
+                    <li class="mobile-nav__item">
+                        <a href="#" class="mobile-nav__link">Цены</a>
+                    </li>
+                    <li class="mobile-nav__item">
+                        <a href="#" class="mobile-nav__link">Оформить заказ</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="preview">
+        <div class="preview__container container">
+            <h1 class="preview__title"><span>Lorem ipsum</span> dolor sit ametconsectetur <span>adipiscing</span></h1>
+            <div class="preview__info info">
+                <h2 class="info__title">At vero eos et accusamus et iusto odio dignissimos ducimus!</h2>
+                <ul class="info__list">
+                    <li class="info__item">- Totam rem aperiam eaque ipsa</li>
+                    <li class="info__item">- Sit voluptatem accusantium doloremque laudantium</li>
+                    <li class="info__item">- Sed ut perspiciatis, unde omnis iste natus error</li>
+                </ul>
+            </div>
+            <div class="preview__buttons">
+                <a href="#" class="preview__btn btn btn_color-blue">заказать</a>
+                <a href="#" class="preview__btn btn btn_color-white">подробнее</a>
+            </div>
+        </div>
+    </section>
+    <section class="payment">
+        <div class="payment__container container">
+            <h3 class="payment__title title">Оформление <span>Заказа</span></h3>
+            <div class="payment__subtitle">
+                <p>Перед заполнением формы ознакомьтесь с нашей схемой работы!</p>
+            </div>
+            <ul class="payment__steps steps">
+                <li class="steps__item step">
+                    <img src="@img/1.svg" alt="Lorem ipsum dolor sit amet" class="step__icon">
+                    <div class="step__text">
+                        <p>Lorem ipsum dolor sit amet</p>
+                    </div>
+                </li>
+                <li class="steps__item step">
+                    <img src="@img/2.svg" alt="Сonsecteturadipiscing elit" class="step__icon">
+                    <div class="step__text">
+                        <p>Сonsecteturadipiscing elit</p>
+                    </div>
+                </li>
+                <li class="steps__item step">
+                    <img src="@img/3.svg" alt="Sed do eiusmod tempor" class="step__icon">
+                    <div class="step__text">
+                        <p>Sed do eiusmod tempor</p>
+                    </div>
+                </li>
+                <li class="steps__item step">
+                    <img src="@img/4.svg" alt="Esse cillum doloreeu fugiat" class="step__icon">
+                    <div class="step__text">
+                        <p>Esse cillum doloreeu fugiat</p>
+                    </div>
+                </li>
+                <li class="steps__item step">
+                    <img src="@img/5.svg" alt="Excepteur sint occaecat cupidatat non proident" class="step__icon">
+                    <div class="step__text">
+                        <p>Excepteur sint occaecat cupidatat non proident</p>
+                    </div>
+                </li>
+            </ul>
+            <form class="form" action="/" method="post">
+                <div class="form__wrapper">
+                    <div class="form__select">
+                        <select class="select input" name="city" aria-label="Выберите тип системы">
+                            <option value="type">Выберите тип системы</option>
+                            <option value="Sed ut perspiciatis">Sed ut perspiciatis</option>
+                            <option value="Nemo enim ipsam">Nemo enim ipsam</option>
+                            <option value="Et harum quidem">Et harum quidem</option>
+                            <option value="Temporibus autem">Temporibus autem</option>
+                            <option value="Itaque earum rerum">Itaque earum rerum</option>
+                        </select>
+                    </div>
+                    <input class="form__email input" type="email" name="email" placeholder="Ваш e-mail">
+                    <input class="form__name input" type="text" name="fullname" placeholder="Ваше имя">
+                    <div class="form__range range">
+                        <div class="range__info">
+                            <p class="range__text">Sed ut perspiciatis, unde omnis iste natus</p>
+                            <span class="range__number">75 %</span>
+                        </div>
+                        <div class="range__line">
+                            <span class="line">
+                                <span class="line__circle"></span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="form__file">
+                        <input name="file" type="file" id="input__file" class="input input_type-file" multiple>
+                        <label for="input__file" class="input__label">
+                           <span class="input__icon-wrapper"><img class="input__icon" src="@img/file-icon.svg" alt="Выбрать файл" width="18"></span>
+                           <span class="input__text">Прикрепить файл</span>
+                        </label>
+                     </div>
+                     <button class="form__btn btn btn_color-blue" type="submit">Отправить</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer__container container">
+            <p class="footer__block footer__copy">© 2018 «LoremIpsum.net» Все права защищены.</p>
+            <ul class="footer__block footer__systems payment-systems">
+                <li class="payment-systems__item footer-item footer-item_type-qiwi">Qiwi wallet</li>
+                <li class="payment-systems__item footer-item footer-item_type-yandex">Yandex Money</li>
+                <li class="payment-systems__item footer-item footer-item_type-web">Web Money</li>
+            </ul>
+            <nav class="footer__block footer__nav contacts">
+                <ul class="contacts__list">
+                    <li class="contacts__item footer-item footer-item_type-mail">
+                        <a class="contacts__link" href="mailto:info@ipsum228.com">info@ipsum228.com</a>
+                    </li>
+                    <li class="contacts__item footer-item footer-item_type-vk">
+                        <a class="contacts__link" href="#">Мы вконтакте</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+    <script src="js/main.min.js"></script>
+</body>
+</html>

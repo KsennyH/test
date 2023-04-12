@@ -1,0 +1,9 @@
+.preview__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 850px;
+    & > * + * {
+        margin-top: 80px;
+    }
+}

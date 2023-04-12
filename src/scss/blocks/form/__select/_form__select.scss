@@ -1,0 +1,16 @@
+.form__select {
+    position: relative;
+    &::before {
+        content: '';
+        position: absolute;
+        background-image: url(../img/arrow.svg);
+        background-position: 0 0;
+        background-repeat: no-repeat;
+        top: 30px;
+        right: 0;
+        transform: translateY(-50%);
+        width: 20px;
+        height: 20px;
+        pointer-events: none;
+    }
+}

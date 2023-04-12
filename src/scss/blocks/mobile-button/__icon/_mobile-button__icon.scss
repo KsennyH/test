@@ -1,0 +1,25 @@
+.mobile-button__icon {
+    display: block;
+    width: 1.875rem;
+    height: 0.125rem;
+    border-radius: 0.1875rem;
+    background-color: #fff;
+    position: relative;
+    &::after, &::before {
+        position: absolute;
+        content: "";
+        width: 1.875rem;
+        height: 0.125rem;
+        border-radius: 0.1875rem;
+        background-color: #fff;
+        transition: transform 0.15s ease-in, top 0.15s ease-in;
+    }
+    &::before {
+        left: 0;
+        top: -0.625rem;
+    }
+    &::after {
+        left: 0;
+        top: 0.625rem;
+    }
+}

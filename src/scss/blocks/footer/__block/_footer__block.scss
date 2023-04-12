@@ -1,0 +1,18 @@
+.footer__block {
+    position: relative;
+    padding-right: 40px;
+    &:last-child {
+        margin-right: 0;
+        padding-right: 0;
+    }
+    &:not(:last-child)::before {
+        position: absolute;
+        content: '';
+        width: 1px;
+        height: 18px;
+        background-color: #C3C3C3;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}

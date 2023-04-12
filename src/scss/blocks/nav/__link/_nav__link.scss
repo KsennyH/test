@@ -1,0 +1,7 @@
+.nav__link {
+    transition: color .5s ease;
+    &:hover,
+    &:focus {
+        color: $active;
+    }
+}

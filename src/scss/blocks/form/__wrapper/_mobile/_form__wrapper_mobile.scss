@@ -1,0 +1,7 @@
+@media (max-width: 575.98px) {
+    .form__wrapper {
+        & > * {
+            grid-column: 1 / -1;
+        }
+    }
+}

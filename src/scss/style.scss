@@ -1,0 +1,114 @@
+@import './base/vars';
+@import './base/reset';
+@import './base/fonts';
+
+@import './blocks/page/page';
+@import './blocks/page/__header/page__header';
+
+@import './blocks/mobile-button/mobile-button';
+@import './blocks/mobile-button/__icon/mobile-button__icon';
+@import './blocks/mobile-button/__icon/_active/mobile-button__icon_active';
+@import './blocks/mobile-button/_tablet/mobile-button_tablet';
+
+@import './blocks/mobile-nav/mobile-nav';
+@import './blocks/mobile-nav/__link/mobile-nav__link';
+@import './blocks/mobile-nav/_active/mobile-nav_active';
+
+@import './blocks/container/container';
+@import './blocks/header/header';
+@import './blocks/header/__container/header__container';
+@import './blocks/logo/logo';
+@import './blocks/nav/nav';
+@import './blocks/nav/__list/nav__list';
+@import './blocks/nav/__list/_tablet/nav__list_tablet';
+@import './blocks/nav/__link/nav__link';
+@import './blocks/nav/__link/_active/nav__link_active';
+@import './blocks/nav/_tablet/nav_tablet';
+
+@import './blocks/preview/preview';
+@import './blocks/preview/__container/preview__container';
+@import './blocks/preview/__title/preview__title';
+@import './blocks/preview/__info/preview__info';
+@import './blocks/preview/__buttons/preview__buttons';
+
+@import './blocks/info/info';
+@import './blocks/info/__title/info__title';
+@import './blocks/info/__list/info__list';
+
+@import './blocks/btn/btn';
+@import './blocks/btn/_color/btn_color-blue';
+@import './blocks/btn/_color/btn_color-white';
+
+@import './blocks/payment/payment';
+@import './blocks/payment/__container/payment__container';
+@import './blocks/payment/__title/payment__title';
+@import './blocks/payment/__subtitle/payment__subtitle';
+@import './blocks/payment/__steps/payment__steps';
+
+@import './blocks/title/title';
+
+@import './blocks/step/step';
+@import './blocks/step/__icon/step__icon';
+@import './blocks/step/__text/step__text';
+
+@import './blocks/steps/steps';
+@import './blocks/steps/__item/steps__item';
+
+@import './blocks/input/input';
+@import './blocks/input/_type/input_type-file';
+@import './blocks/input/__icon-wrapper/input__icon-wrapper';
+@import './blocks/input/__text/input__text';
+@import './blocks/input/__label/input__label';
+
+@import './blocks/form/__file/form__file';
+@import './blocks/form/__select/form__select';
+@import './blocks/form/__wrapper/form__wrapper';
+@import './blocks/form/__range/form__range';
+@import './blocks/form/__btn/form__btn';
+
+@import './blocks/select/select';
+
+@import './blocks/line/line';
+@import './blocks/line/__circle/line__circle';
+
+@import './blocks/range/range';
+@import './blocks/range/__line/range__line';
+@import './blocks/range/__range__info/range__info';
+@import './blocks/range/__number/range__number';
+
+@import './blocks/footer/footer';
+@import './blocks/footer/__container/footer__container';
+@import './blocks/footer/__copy/footer__copy';
+@import './blocks/footer/__block/footer__block';
+
+@import './blocks/payment-systems/payment-systems';
+
+@import './blocks/footer-item/footer-item';
+@import './blocks/footer-item/_type/footer-item_type-qiwi';
+@import './blocks/footer-item/_type/footer-item_type-yandex';
+@import './blocks/footer-item/_type/footer-item_type-web';
+@import './blocks/footer-item/_type/footer-item_type-mail';
+@import './blocks/footer-item/_type/footer-item_type-vk';
+
+@import './blocks/contacts/contacts';
+@import './blocks/contacts/__list/contacts__list';
+
+@import './blocks/form/__wrapper/_tablet/form__wrapper_tablet';
+@import './blocks/preview/_tablet/preview_tablet';
+@import './blocks/preview/__title/_tablet/preview__title_tablet';
+@import './blocks/form/__wrapper/_mobile/form__wrapper_mobile';
+@import './blocks/form/__select/_tablet/form__select_tablet';
+@import './blocks/logo/_mobile/logo_mobile';
+@import './blocks/preview/__container/_mobile/preview__container_mobile';
+@import './blocks/preview/__title/_mobile/preview__title_mobile';
+@import './blocks/preview/__btn/_mobile/preview__btn_mobile';
+@import './blocks/info/_mobile/info_mobile';
+@import './blocks/range/_mobile/range_mobile';
+@import './blocks/footer/__block/_tablet/footer__block_tablet';
+@import './blocks/footer/__container/_mobile/footer__container_mobile';
+@import './blocks/footer/__copy/_mobile/footer__copy_mobile';
+@import './blocks/title/_tablet/title_tablet';
+@import './blocks/title/_mobile/title_mobile';
+@import './blocks/payment/__subtitle/_mobile/payment__subtitle_mobile';
+@import './blocks/steps/_mobile/steps_mobile';
+

@@ -1,0 +1,15 @@
+.btn {
+    display: inline-block;
+    text-align: center;
+    min-width: 183px;
+    height: 48px;
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    border: 1px solid;
+    padding: 15px 10px;
+    transition: background-color .8s ease, border-color .8s ease, color .8s ease;
+}

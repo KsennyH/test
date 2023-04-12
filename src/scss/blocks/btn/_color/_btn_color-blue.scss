@@ -1,0 +1,10 @@
+.btn_color-blue {
+    background-color: $accent;
+    border-color: #fff;
+    color: #fff;
+    &:hover {
+        background-color: #fff;
+        border-color: #6F6D7B;
+        color: #2A2B30;
+    }
+}
